@@ -1,0 +1,16 @@
+[project]
+name = "cgdmkr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "camelot-py[cv]>=1.0.9",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.0.1",
+]

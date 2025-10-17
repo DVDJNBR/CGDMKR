@@ -6,10 +6,11 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-      pkgs.python314
+      pkgs.python311
       pkgs.git
       pkgs.gitflow
       pkgs.uv
+      pkgs.ghostscript
   ];
 
   # Sets environment variables in the workspace
